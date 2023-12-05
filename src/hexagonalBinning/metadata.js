@@ -2,13 +2,13 @@ import icon from './hexagonalBinning.svg'
 import thumbnail from './hexagonalBinning_thumb.svg'
 
 export const metadata = {
-  name: 'Hexagonal binning',
+  name: '六边形分箱图',
   id: 'rawgraphs.hexagonalbinning',
   thumbnail,
   icon,
   categories: ['correlations', 'distributions'],
   description:
-    'Hexagonal Binning is a way to manage the problem of having too many points that start to overlap. Hexagonal binning plots density, rather than points. Points are binned into gridded hexagons and distribution (the number of points per hexagon) is displayed using either the color or the area of the hexagons.',
+    '六边形分箱是一种解决有太多点开始重叠问题的方法。 六边形分箱绘制的是密度，而不是点。 点被分成网格六边形，并使用六边形的颜色或面积显示分布（每个六边形的点数）。',
   code:
     'https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/hexagonalBinning',
   tutorial: 'https://rawgraphs.io/learning/how-to-make-an-hexagonal-binning/',
