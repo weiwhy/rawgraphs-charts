@@ -1,10 +1,10 @@
 export const metadata = {
-  name: 'Slope chart',
+  name: '坡度图',
   id: 'rawgraphs.slopechart',
   // thumbnail,
   // icon,
   categories: ['Test'],
-  description: 'An empty chart to bootstrap new ones',
+  description: '一个空图表来引导新图表',
   // code: 'https://github.com/rawgraphs/raw',
   // tutorial: 'https://rawgraphs.io/learning/',
 }
