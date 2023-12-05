@@ -2,13 +2,13 @@ import icon from './bumpchart.svg'
 import thumbnail from './bumpchart_thumb.svg'
 
 export const metadata = {
-  name: 'Bumpchart',
+  name: '凹凸图',
   id: 'rawgraphs.bumpchart',
   thumbnail,
   icon,
   categories: ['time series', 'correlations', 'proportions'],
   description:
-    'It allows the comparison of multiple categories over a continuous dimension and the evolution of its sorting. By default, sorting is based on the stream size.',
+    '它允许在连续维度上比较多个类别及其排序的演变。默认情况下，排序基于流大小。',
   code:
     'https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/bumpchart',
   tutorial: 'https://rawgraphs.io/learning/how-to-make-a-bump-chart/',
