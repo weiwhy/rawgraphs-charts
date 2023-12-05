@@ -7,13 +7,13 @@ https://github.com/rawgraphs/rawgraphs-charts/blob/master/docs/add-a-new-chart.m
 */
 
 export const metadata = {
-  name: 'Chord Diagram',
+  name: '和弦图',
   id: 'rawgraphs.chorddiagram',
   thumbnail,
   icon,
   categories: ['networks'],
   description:
-    'It shows relationships among nodes. Nodes size represent the sum of incoming and outgoing links. Relationships are drawn as arcs whose width represent their values.', //TODO
+    '它显示节点之间的关系。节点大小表示传入和传出链接的总和。关系绘制为圆弧，其宽度表示其值。', //TODO
   code:
     'https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/chorddiagram',
   tutorial: 'www.rawgraphs.io/learning/how-to-make-a-chord-diagram',
