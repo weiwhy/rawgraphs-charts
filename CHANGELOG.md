@@ -97,7 +97,7 @@ Starting from this release, version naming will be based on Semantic Versioning.
 
 #### Changes:
 
-- using @rawgraphs/rawgraphs-core 1.0.0-beta.15
+- using @weiwhy/rawgraphs-core 1.0.0-beta.15
 - _Alluvial diagram_: added message to prevent visualization overflows if the number of items is too high
 - _Streamgraph_: removed padding (creating many issues). Filtered streams with zero values to avoid glitches.
 - Updated empty bootstrap chart

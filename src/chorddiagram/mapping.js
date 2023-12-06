@@ -4,7 +4,7 @@ https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/arcdiagram/mapping
 */
 
 import * as d3 from 'd3'
-import { getDimensionAggregator } from '@rawgraphs/rawgraphs-core'
+import { getDimensionAggregator } from '@weiwhy/rawgraphs-core'
 
 export const mapData = function (data, mapping, dataTypes, dimensions) {
   const sizeAggregator = getDimensionAggregator(

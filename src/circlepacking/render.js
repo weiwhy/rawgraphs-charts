@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { legend, labelsOcclusion } from '@rawgraphs/rawgraphs-core'
+import { legend, labelsOcclusion } from '@weiwhy/rawgraphs-core'
 import '../d3-styles.js'
 
 /*

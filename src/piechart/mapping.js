@@ -4,7 +4,7 @@
 // }
 
 import * as d3 from 'd3'
-import { getDimensionAggregator } from '@rawgraphs/rawgraphs-core'
+import { getDimensionAggregator } from '@weiwhy/rawgraphs-core'
 
 // copied from radarchart
 

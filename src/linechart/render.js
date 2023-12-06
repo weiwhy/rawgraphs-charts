@@ -1,5 +1,5 @@
 import * as d3 from 'd3'
-import { legend } from '@rawgraphs/rawgraphs-core'
+import { legend } from '@weiwhy/rawgraphs-core'
 import * as d3Gridding from 'd3-gridding'
 import '../d3-styles'
 

@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
 import * as d3VoronoiTreemap from 'd3-voronoi-treemap'
-import { legend } from '@rawgraphs/rawgraphs-core'
+import { legend } from '@weiwhy/rawgraphs-core'
 import '../d3-styles.js'
 
 /*
