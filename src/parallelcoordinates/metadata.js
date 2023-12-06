@@ -2,13 +2,13 @@ import icon from './parallelcoordinates.svg'
 import thumbnail from './parallelcoordinates_thumb.svg'
 
 export const metadata = {
-  name: 'Parallel coordinates',
+  name: '平行坐标图',
   id: 'rawgraphs.parallelcoordinates',
   thumbnail,
   icon,
   categories: ['correlations', 'distributions'],
   description:
-    'It displays multiple continuous dimensions as axes, and each row in the dataset produces a line connecting its values across the axes.',
+    '它将多个连续维度显示为轴，数据集中的每一行都会生成一条线，将其值跨轴连接起来。',
   code:
     'https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/parallelcoordinates',
   tutorial: 'https://rawgraphs.io/learning/how-to-make-parallel-coordinates/',
