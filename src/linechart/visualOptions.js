@@ -1,44 +1,44 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 15,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 50,
-    group: 'artboard',
+    group: '画板',
   },
 
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: '显示图例',
     default: false,
-    group: 'artboard',
+    group: '画板',
   },
 
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: '图例宽度',
     default: 200,
-    group: 'artboard',
+    group: '画板',
     disabled: {
       showLegend: false,
     },
@@ -52,14 +52,14 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show dots on data values',
     default: false,
-    group: 'chart',
+    group: '图表',
   },
 
   dotsDiameter: {
     type: 'number',
     label: 'Dots diameter',
     default: 2,
-    group: 'chart',
+    group: '图表',
     disabled: {
       showPoints: false,
     },
@@ -82,22 +82,22 @@ export const visualOptions = {
       { label: 'Step After', value: 'curveStepAfter' },
       { label: 'Step Before', value: 'curveStepBefore' },
     ],
-    group: 'chart',
+    group: '图表',
   },
 
   yOrigin: {
     type: 'boolean',
     label: 'Set Y origin to 0',
     default: false,
-    group: 'chart',
+    group: '图表',
     requiredDimensions: ['y'],
   },
 
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: '列数',
     default: 0,
-    group: 'series',
+    group: '坐标系',
   },
 
   xTicksAuto: {
@@ -130,7 +130,7 @@ export const visualOptions = {
   sortSeriesBy: {
     type: 'text',
     label: 'Sort series by',
-    group: 'series',
+    group: '坐标系',
     options: [
       'Total value (descending)',
       'Total value (ascending)',
@@ -142,23 +142,23 @@ export const visualOptions = {
 
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: '使用相同比例',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: '显示坐标系标题',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   repeatAxesLabels: {
     type: 'boolean',
     label: 'Repeat axis labels for each series',
     default: false,
-    group: 'series',
+    group: '坐标系',
   },
 
   showLabels: {
@@ -181,14 +181,14 @@ export const visualOptions = {
 
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: '显示坐标系网格',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: '色标',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',

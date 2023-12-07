@@ -1,67 +1,67 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   minDiameter: {
     type: 'number',
     label: 'Min diameter',
     default: 2,
-    group: 'chart',
+    group: '图表',
   },
 
   maxDiameter: {
     type: 'number',
     label: 'Max diameter',
     default: 30,
-    group: 'chart',
+    group: '图表',
   },
 
   linkOpacity: {
     type: 'number',
-    label: 'Links opacity (0-1)',
+    label: '连线不透明度（0-1）',
     default: 0.5,
     step: 0.1,
     min: 0,
     max: 1,
-    group: 'chart',
+    group: '图表',
   },
 
   sameSide: {
     type: 'boolean',
-    label: 'Arcs only on the top',
+    label: '弧形仅在顶部',
     default: false,
-    group: 'chart',
+    group: '图表',
   },
 
   nodeSize: {
     type: 'text',
-    label: 'Nodes diameter',
-    group: 'chart',
+    label: '节点直径',
+    group: '图表',
     options: [
       { label: 'Same size', value: 'default' },
       { label: 'Weighted degree', value: 'totalValue' },
@@ -76,8 +76,8 @@ export const visualOptions = {
 
   orderNodesBy: {
     type: 'text',
-    label: 'Sort nodes by',
-    group: 'chart',
+    label: '节点排序依据',
+    group: '图表',
     options: ['Name', 'Links count (degree)', 'Size', 'Minimize overlaps'],
     default: 'Minimize overlaps',
   },

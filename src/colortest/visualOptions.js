@@ -1,12 +1,12 @@
 export const visualOptions = {
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: '色标',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
       interpolator: 'schemeCategory10',
     },
-    group: 'chart',
+    group: '图表',
   },
 }

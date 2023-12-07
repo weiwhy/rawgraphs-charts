@@ -1,44 +1,44 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 30,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 0,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   showDots: {
     type: 'boolean',
     label: 'Show dots on data values',
     default: true,
-    group: 'chart',
+    group: '图表',
   },
 
   dotsDiameter: {
     type: 'number',
     label: 'Dots diameter',
     default: 2,
-    group: 'chart',
+    group: '图表',
     disabled: {
       showDots: false,
     },
@@ -48,7 +48,7 @@ export const visualOptions = {
     type: 'number',
     label: 'Inner diameter',
     default: 0,
-    group: 'chart',
+    group: '图表',
   },
 
   interpolation: {
@@ -56,7 +56,7 @@ export const visualOptions = {
     label: 'Curve type',
     default: 'Catmull–Rom',
     options: ['Basis', 'Cardinal', 'Catmull–Rom', 'Linear'],
-    group: 'chart',
+    group: '图表',
   },
 
   fillOpacity: {
@@ -66,7 +66,7 @@ export const visualOptions = {
     step: 0.1,
     min: 0,
     max: 1,
-    group: 'chart',
+    group: '图表',
   },
 
   labelsPadding: {
@@ -78,7 +78,7 @@ export const visualOptions = {
 
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: '色标',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',
@@ -89,15 +89,15 @@ export const visualOptions = {
 
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: '列数',
     default: 0,
-    group: 'series',
+    group: '坐标系',
   },
 
   sortSeriesBy: {
     type: 'text',
     label: 'Sort series by',
-    group: 'series',
+    group: '坐标系',
     options: [
       { label: 'Total value (descending)', value: 'valueDescending' },
       { label: 'Total value (ascending)', value: 'valueAscending' },
@@ -109,30 +109,30 @@ export const visualOptions = {
 
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: '显示坐标系标题',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: '显示坐标系网格',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: '显示图例',
     default: false,
-    group: 'artboard',
+    group: '画板',
   },
 
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: '图例宽度',
     default: 200,
-    group: 'artboard',
+    group: '画板',
     disabled: {
       showLegend: false,
     },

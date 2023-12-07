@@ -1,71 +1,71 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 50,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 50,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 50,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 50,
-    group: 'artboard',
+    group: '画板',
   },
 
   ringWidth: {
     type: 'number',
     label: 'Ring width',
     default: 10,
-    group: 'chart',
+    group: '图表',
   },
 
   chordPadding: {
     type: 'number',
     label: 'Groups padding',
     default: 10,
-    group: 'chart',
+    group: '图表',
   },
 
   ribbonPadding: {
     type: 'number',
     label: 'Chords padding',
     default: 1,
-    group: 'chart',
+    group: '图表',
   },
 
   chordPaddingSource: {
     type: 'number',
     label: 'Source inner padding',
     default: 1,
-    group: 'chart',
+    group: '图表',
   },
 
   chordPaddingTarget: {
     type: 'number',
     label: 'Target inner padding',
     default: 5,
-    group: 'chart',
+    group: '图表',
   },
 
   sortNodesBy: {
     type: 'text',
     label: 'Sort groups by',
-    group: 'chart',
+    group: '图表',
     options: [
       { label: 'Size (descending)', value: 'totalDescending' },
       { label: 'Size (ascending)', value: 'totalAscending' },
@@ -77,7 +77,7 @@ export const visualOptions = {
   sortRibbonsBy: {
     type: 'text',
     label: 'Sort chords by',
-    group: 'chart',
+    group: '图表',
     options: [
       { label: 'Size (descending)', value: 'totalDescending' },
       { label: 'Size (ascending)', value: 'totalAscending' },
@@ -90,7 +90,7 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show arrow heads',
     default: true,
-    group: 'chart',
+    group: '图表',
   },
 
   headRadius: {
@@ -100,7 +100,7 @@ export const visualOptions = {
     type: 'number',
     label: 'Arrows heads radius',
     default: 20,
-    group: 'chart',
+    group: '图表',
   },
 
   chordColors: {

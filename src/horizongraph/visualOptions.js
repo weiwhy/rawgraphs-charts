@@ -1,44 +1,44 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   bands: {
     type: 'number',
     label: 'Number of bands',
     default: 4,
-    group: 'chart',
+    group: '图表',
   },
 
   padding: {
     type: 'number',
-    label: 'Padding',
+    label: '间距',
     default: 1,
-    group: 'chart',
+    group: '图表',
   },
 
   interpolation: {
@@ -57,13 +57,13 @@ export const visualOptions = {
       { label: 'Step After', value: 'curveStepAfter' },
       { label: 'Step Before', value: 'curveStepBefore' },
     ],
-    group: 'chart',
+    group: '图表',
   },
 
   negativeStyle: {
     type: 'text',
     label: 'Show negative values as',
-    group: 'chart',
+    group: '图表',
     options: [
       { label: 'Mirrored', value: 'mirrored' },
       { label: 'Offset', value: 'top' },
@@ -73,7 +73,7 @@ export const visualOptions = {
 
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: '色标',
     dimension: 'color',
     default: {
       scaleType: 'ordinal',

@@ -36,7 +36,7 @@ export const visualOptions = {
 
   nodesPadding: {
     type: 'number',
-    label: '填充',
+    label: '间距',
     default: 5,
     group: '图表',
   },

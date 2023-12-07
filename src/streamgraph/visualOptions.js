@@ -1,44 +1,44 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 20,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   showLegend: {
     type: 'boolean',
-    label: 'Show legend',
+    label: '显示图例',
     default: false,
-    group: 'artboard',
+    group: '画板',
   },
 
   legendWidth: {
     type: 'number',
-    label: 'Legend width',
+    label: '图例宽度',
     default: 200,
-    group: 'artboard',
+    group: '画板',
     disabled: {
       showLegend: false,
     },
@@ -51,7 +51,7 @@ export const visualOptions = {
   streamsOrder: {
     type: 'text',
     label: 'Sort streams by',
-    group: 'chart',
+    group: '图表',
     options: [
       { label: 'Earliest', value: 'stackOrderAppearance' },
       { label: 'Ascending', value: 'stackOrderAscending' },
@@ -79,13 +79,13 @@ export const visualOptions = {
       { label: 'Step After', value: 'curveStepAfter' },
       { label: 'Step Before', value: 'curveStepBefore' },
     ],
-    group: 'chart',
+    group: '图表',
   },
 
   streamsOffset: {
     type: 'text',
     label: 'Streams vertical alignment',
-    group: 'chart',
+    group: '图表',
     options: [
       { label: 'Expand', value: 'stackOffsetExpand' },
       // { label: 'Diverging', value: 'stackOffsetDiverging' },
@@ -100,27 +100,27 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show Y axis',
     default: false,
-    group: 'chart',
+    group: '图表',
   },
 
   useSameScale: {
     type: 'boolean',
-    label: 'Use same scale',
+    label: '使用相同比例',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   columnsNumber: {
     type: 'number',
-    label: 'Number of columns',
+    label: '列数',
     default: 0,
-    group: 'series',
+    group: '坐标系',
   },
 
   sortSeriesBy: {
     type: 'text',
     label: 'Sort series by',
-    group: 'series',
+    group: '坐标系',
     options: [
       { label: 'Total value (descending)', value: 'totalAscending' },
       { label: 'Total value (ascending)', value: 'totalDescending' },
@@ -132,21 +132,21 @@ export const visualOptions = {
 
   showSeriesLabels: {
     type: 'boolean',
-    label: 'Show series titles',
+    label: '显示坐标系标题',
     default: true,
-    group: 'series',
+    group: '坐标系',
   },
 
   showGrid: {
     type: 'boolean',
-    label: 'Show series grid',
+    label: '显示坐标系网格',
     default: false,
-    group: 'series',
+    group: '坐标系',
   },
 
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: '色标',
     dimension: 'streams',
     default: {
       scaleType: 'ordinal',
