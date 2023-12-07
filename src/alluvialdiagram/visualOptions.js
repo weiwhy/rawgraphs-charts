@@ -1,68 +1,68 @@
 export const visualOptions = {
   marginTop: {
     type: 'number',
-    label: 'Margin (top)',
+    label: '边距（顶部）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginRight: {
     type: 'number',
-    label: 'Margin (right)',
+    label: '边距 (右)',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginBottom: {
     type: 'number',
-    label: 'Margin (bottom)',
+    label: '边距（底部）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   marginLeft: {
     type: 'number',
-    label: 'Margin (left)',
+    label: '边距（左）',
     default: 10,
-    group: 'artboard',
+    group: '画板',
   },
 
   nodesWidth: {
     type: 'number',
-    label: 'Nodes width',
+    label: '节点宽度',
     default: 5,
-    group: 'chart',
+    group: '图表',
   },
 
   nodesPadding: {
     type: 'number',
-    label: 'Padding',
+    label: '填充',
     default: 5,
-    group: 'chart',
+    group: '图表',
   },
 
   linksOpacity: {
     type: 'number',
-    label: 'Links opacity (0-1)',
+    label: '连线不透明度（0-1）',
     default: 1,
     step: 0.1,
     min: 0,
     max: 1,
-    group: 'chart',
+    group: '图表',
   },
 
   linksBlendMode: {
     type: 'text',
-    label: 'Links blend mode',
-    group: 'chart',
+    label: '连线混合模式',
+    group: '图表',
     options: ['normal', 'multiply'],
     default: 'multiply',
   },
 
   sortNodesBy: {
     type: 'text',
-    label: 'Sort nodes by',
-    group: 'chart',
+    label: '节点排序依据',
+    group: '图表',
     options: [
       { label: 'Size (descending)', value: 'sizeDescending' },
       { label: 'Size (ascending)', value: 'sizeAscending' },
@@ -74,27 +74,27 @@ export const visualOptions = {
 
   verticalAlignment: {
     type: 'text',
-    label: 'Flows alignment',
-    group: 'chart',
+    label: '流量对齐',
+    group: '图表',
     options: ['Top', 'Center', 'Bottom'],
     default: 'Center',
   },
 
   colorScale: {
     type: 'colorScale',
-    label: 'Color scale',
+    label: '色标',
     dimension: 'source',
     default: {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   showValues: {
     type: 'boolean',
-    label: 'Show nodes values',
+    label: '显示节点的值',
     default: false,
-    group: 'Labels',
+    group: '标签',
   },
 }
