@@ -11,7 +11,7 @@ export const metadata = {
   id: 'rawgraphs.chorddiagram',
   thumbnail,
   icon,
-  categories: ['networks'],
+  categories: ['网络'],
   description:
     '它显示节点之间的关系。节点大小表示传入和传出链接的总和。关系绘制为圆弧，其宽度表示其值。', //TODO
   code:

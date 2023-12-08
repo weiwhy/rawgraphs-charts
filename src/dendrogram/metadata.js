@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.lineardendrogram',
   thumbnail,
   icon,
-  categories: ['hierarchies', 'proportions'],
+  categories: ['层次结构', '比例'],
   description:
     '它以树形结构显示分层结构的数据，其中根节点在左侧，叶子在右侧。 节点的大小可用于用大小编码进一步的定量维度以及用颜色编码定量或分类维度。',
   code:

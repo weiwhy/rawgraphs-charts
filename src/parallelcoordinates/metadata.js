@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.parallelcoordinates',
   thumbnail,
   icon,
-  categories: ['correlations', 'distributions'],
+  categories: ['相关性', '分布图'],
   description:
     '它将多个连续维度显示为轴，数据集中的每一行都会生成一条线，将其值跨轴连接起来。',
   code:

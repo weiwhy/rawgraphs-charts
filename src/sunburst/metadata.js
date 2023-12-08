@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.sunburst',
   thumbnail,
   icon,
-  categories: ['hierarchies', 'proportions'],
+  categories: ['层次结构', '比例'],
   description:
     '它使用同心圆显示分层结构的数据和相关的定量维度。 中心的圆圈代表根节点，层次结构从中心向外移动。 每条弧线的角度对应于定性维度。',
   code:

@@ -5,7 +5,7 @@ export const metadata = {
   name: '甘特图',
   thumbnail,
   icon,
-  categories: ['time series', 'correlations'],
+  categories: ['时间序列', '相关性'],
   description:
     '甘特图是一种条形图，由 Henry Gantt 在 1910 年代开发，用于说明项目进度表。 甘特图说明了项目的终端元素和摘要元素的开始和完成日期。',
   code:

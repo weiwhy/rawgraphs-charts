@@ -6,7 +6,7 @@ export const metadata = {
   thumbnail,
   icon,
   id: 'rawgraphs.barchart',
-  categories: ['correlations'],
+  categories: ['相关性'],
   description:
     '它显示分类维度和相关数量。每个条形图代表一个类别，宽度与数量维度成正比。',
   code:

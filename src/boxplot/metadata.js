@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.boxplot',
   thumbnail,
   icon,
-  categories: ['distributions'],
+  categories: ['分布图'],
   description:
     '它总结了具有五个标准统计量的定量分布：最小值、下四分位数、中位数、上四分位数和最大值。',
   code: 'https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/boxplot',

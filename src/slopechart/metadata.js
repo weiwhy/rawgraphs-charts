@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.slopechart',
   thumbnail,
   icon,
-  categories: ['correlations'],
+  categories: ['相关性'],
   description:
     '它允许比较两个连续的维度，将它们显示为轴，并使用一条线来显示关系。',
   code: 'https://github.com/rawgraphs/rawgraphs-charts/tree/master/src/slopechart',

@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.horizongraph',
   thumbnail,
   icon,
-  categories: ['time series', 'correlations'],
+  categories: ['时间序列', '相关性'],
   description:
     '它显示连续间隔或时间段内的定量维度。 水平图结合位置和颜色以减少垂直空间。',
   code:

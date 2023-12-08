@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.radarchart',
   thumbnail,
   icon,
-  categories: ['correlations'],
+  categories: ['相关性'],
   description:
     '它将多个连续尺寸显示为从同一点开始并呈放射状排列的轴。 每个维度都表示为从购物车中心开始的轴。 相同的比例应用于所有轴。',
   code:

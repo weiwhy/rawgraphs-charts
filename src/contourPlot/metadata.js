@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.contourplot',
   thumbnail,
   icon,
-  categories: ['correlations', 'distributions'],
+  categories: ['相关性', '分布图'],
   description:
     '它显示了点云的估计密度，这对于避免大型数据集中的过度绘制特别有用。',
   code:

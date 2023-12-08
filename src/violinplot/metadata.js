@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.violinplot',
   thumbnail,
   icon,
-  categories: ['distributions'],
+  categories: ['分布图'],
   description:
     '显示数字维度的分布很有用。 形状宽度表示数据集中具有相同值的项目的数量。',
   code:

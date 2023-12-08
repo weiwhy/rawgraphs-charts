@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.linechart',
   thumbnail,
   icon,
-  categories: ['time series', 'correlations'],
+  categories: ['时间序列', '相关性'],
   description:
     '它显示连续间隔或时间段内的定量维度。 可以选择使用颜色来编码附加的定量或分类维度。',
   code:

@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.matrixplot',
   thumbnail,
   icon,
-  categories: ['correlations', 'time series', 'proportions'],
+  categories: ['相关性', '时间序列', '比例'],
   description:
     '它允许比较两个分类维度，将它们放置在水平轴和垂直轴上。 每个字形（正方形或圆形）代表两个维度之间可能的相关性。 相关的定量变量可以用大小和/或颜色来表示。',
   code:

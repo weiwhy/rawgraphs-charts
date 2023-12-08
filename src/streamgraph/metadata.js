@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.streamgraph',
   thumbnail,
   icon,
-  categories: ['time series', 'correlations', 'proportions'],
+  categories: ['时间序列', '相关性', '比例'],
   description:
     '它允许在连续维度上比较多个类别。',
   code:

@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.sankeydiagram',
   thumbnail,
   icon,
-  categories: ['networks'],
+  categories: ['网络'],
   description:
     '它表示网络节点之间的流量。 节点表示为矩形，高度表示它们的值。 流量用曲线表示，其宽度与其值成正比。',
   code:

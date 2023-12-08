@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.hexagonalbinning',
   thumbnail,
   icon,
-  categories: ['correlations', 'distributions'],
+  categories: ['相关性', '分布图'],
   description:
     '六边形分箱是一种解决有太多点开始重叠问题的方法。 六边形分箱绘制的是密度，而不是点。 点被分成网格六边形，并使用六边形的颜色或面积显示分布（每个六边形的点数）。',
   code:

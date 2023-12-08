@@ -6,7 +6,7 @@ export const metadata = {
   thumbnail,
   icon,
   id: 'rawgraphs.barchartmultiset',
-  categories: ['correlations', 'proportions'],
+  categories: ['相关性', '比例'],
   description:
     '它显示与类别相关的多个定量维度。根据分类维度将条形图直观地分组，每个条形图代表一个定量维度，并映射到其高度上。',
   code:

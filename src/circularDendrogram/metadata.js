@@ -6,7 +6,7 @@ export const metadata = {
   id: 'rawgraphs.circulardendrogram',
   thumbnail,
   icon,
-  categories: ['hierarchies', 'proportions'],
+  categories: ['层次结构', '比例'],
   description:
     '它以放射状树结构显示分层结构的数据，其中根节点位于中心，层次结构向外移动。 节点的面积可用于编码进一步的定量维度和带有颜色的定量或分类维度。',
   code:
