@@ -1,13 +1,13 @@
 export const dimensions = [
   {
     id: 'source',
-    name: 'Source node',
+    name: '源节点',
     validTypes: ['number', 'date', 'string'],
     required: true,
   },
   {
     id: 'target',
-    name: 'Target node',
+    name: '目标节点',
     validTypes: ['number', 'date', 'string'],
     required: true,
   },
