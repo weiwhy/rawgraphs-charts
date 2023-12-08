@@ -113,14 +113,14 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
     requiredDimensions: ['x', 'y'],
   },
 
   labelStyles: {
     type: 'text',
     label: 'Label',
-    group: 'labels',
+    group: '标签',
     options: [
       { label: 'Primary', value: 'labelPrimary' },
       { label: 'Secondary', value: 'labelSecondary' },
@@ -134,17 +134,17 @@ export const visualOptions = {
 
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: '显示轮廓',
     default: false,
-    group: 'labels',
+    group: '标签',
     requiredDimensions: ['x', 'y', 'label'],
   },
 
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: '自动隐藏标签',
     default: false,
-    group: 'labels',
+    group: '标签',
     requiredDimensions: ['x', 'y', 'label'],
   },
 }

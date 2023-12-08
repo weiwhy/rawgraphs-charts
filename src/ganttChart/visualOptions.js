@@ -79,13 +79,13 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   alignLabels: {
     type: 'boolean',
     label: 'Labels position',
     default: false,
-    group: 'labels',
+    group: '标签',
   },
 }

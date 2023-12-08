@@ -73,7 +73,7 @@ export const visualOptions = {
 
   sizeOnlyLeaves: {
     type: 'boolean',
-    label: 'Size only leaf nodes',
+    label: '仅调整叶节点大小',
     default: true,
     group: '图表',
   },
@@ -93,13 +93,13 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show hierarchy labels',
     default: true,
-    group: 'labels',
+    group: '标签',
   },
 
   hierarchyStyle: {
     type: 'text',
     label: 'Hierarchy labels',
-    group: 'labels',
+    group: '标签',
     options: [
       { label: 'Primary', value: 'labelPrimary' },
       { label: 'Secondary', value: 'labelSecondary' },
@@ -111,7 +111,7 @@ export const visualOptions = {
   labelStyles: {
     type: 'text',
     label: 'Label',
-    group: 'labels',
+    group: '标签',
     options: [
       { label: 'Primary', value: 'labelPrimary' },
       { label: 'Secondary', value: 'labelSecondary' },
@@ -124,8 +124,8 @@ export const visualOptions = {
 
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: '显示轮廓',
     default: false,
-    group: 'labels',
+    group: '标签',
   },
 }

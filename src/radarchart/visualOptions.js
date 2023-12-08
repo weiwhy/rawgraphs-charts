@@ -73,7 +73,7 @@ export const visualOptions = {
     type: 'number',
     label: 'Axis labels padding',
     default: 10,
-    group: 'labels',
+    group: '标签',
   },
 
   colorScale: {
@@ -84,7 +84,7 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'schemeCategory10',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   columnsNumber: {

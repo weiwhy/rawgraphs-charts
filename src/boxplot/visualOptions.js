@@ -84,13 +84,13 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'schemeCategory10',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   showValues: {
     type: 'boolean',
     label: 'Show boxpot values',
     default: true,
-    group: 'labels',
+    group: '标签',
   },
 }

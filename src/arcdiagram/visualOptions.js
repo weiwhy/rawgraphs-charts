@@ -29,14 +29,14 @@ export const visualOptions = {
 
   minDiameter: {
     type: 'number',
-    label: 'Min diameter',
+    label: '最小直径',
     default: 2,
     group: '图表',
   },
 
   maxDiameter: {
     type: 'number',
-    label: 'Max diameter',
+    label: '最大直径',
     default: 30,
     group: '图表',
   },

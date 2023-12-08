@@ -145,20 +145,20 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   showLabels: {
     type: 'boolean',
     label: 'Show streams labels',
     default: true,
-    group: 'Labels',
+    group: '标签',
   },
 
   labelsType: {
     type: 'text',
     label: 'Labels position',
-    group: 'Labels',
+    group: '标签',
     options: ['On path', 'On point'],
     default: 'On point',
     disabled: {
@@ -168,9 +168,9 @@ export const visualOptions = {
 
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: '显示轮廓',
     default: false,
-    group: 'Labels',
+    group: '标签',
     disabled: {
       showLabels: false,
     },

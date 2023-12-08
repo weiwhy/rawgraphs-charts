@@ -111,7 +111,7 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   chordOpacity: {
@@ -121,20 +121,20 @@ export const visualOptions = {
     min: 0.1,
     max: 1,
     step: 0.05,
-    group: 'colors',
+    group: '颜色',
   },
 
   showChordGroupLabels: {
     type: 'boolean',
     label: 'Show Chord Group Labels',
     default: true,
-    group: 'labels',
+    group: '标签',
   },
 
   showValues: {
     type: 'boolean',
     label: 'Show nodes values',
     default: true,
-    group: 'labels',
+    group: '标签',
   },
 }

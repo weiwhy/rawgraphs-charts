@@ -165,7 +165,7 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show labels',
     default: true,
-    group: 'labels',
+    group: '标签',
   },
 
   labelsPosition: {
@@ -173,7 +173,7 @@ export const visualOptions = {
     label: 'Labels position',
     options: ['inline', 'side'],
     default: 'inline',
-    group: 'labels',
+    group: '标签',
     disabled: {
       showLabels: false,
     },
@@ -194,6 +194,6 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 }

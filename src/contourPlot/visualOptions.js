@@ -101,7 +101,7 @@ export const visualOptions = {
       scaleType: 'sequential',
       interpolator: 'interpolateBlues',
     },
-    group: 'colors',
+    group: '颜色',
     requiredDimensions: ['x', 'y'],
   },
 
@@ -109,7 +109,7 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show band labels',
     default: false,
-    group: 'labels',
+    group: '标签',
     requiredDimensions: ['x', 'y'],
   },
 
@@ -119,7 +119,7 @@ export const visualOptions = {
     default: 5,
     step: 1,
     min: 1,
-    group: 'labels',
+    group: '标签',
     disabled: {
       showBandLabels: false,
     },
@@ -128,9 +128,9 @@ export const visualOptions = {
 
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: '显示轮廓',
     default: false,
-    group: 'labels',
+    group: '标签',
     disabled: {
       showBandLabels: false,
     },
@@ -139,9 +139,9 @@ export const visualOptions = {
 
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: '自动隐藏标签',
     default: false,
-    group: 'labels',
+    group: '标签',
     disabled: {
       showBandLabels: false,
     },

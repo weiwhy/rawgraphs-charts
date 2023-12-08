@@ -49,14 +49,14 @@ export const visualOptions = {
 
   drawDonut: {
     type: 'boolean',
-    label: 'Draw as donuts',
+    label: '画成甜甜圈',
     default: false,
     group: '图表',
   },
 
   arcTichkness: {
     type: 'number',
-    label: 'Donut thickness',
+    label: '甜甜圈厚度',
     default: 10,
     group: '图表',
     disabled: {
@@ -87,7 +87,7 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   // labels
@@ -96,14 +96,14 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show pies titles',
     default: true,
-    group: 'labels',
+    group: '标签',
   },
 
   showArcValues: {
     type: 'boolean',
     label: 'Show values on arcs',
     default: false,
-    group: 'labels',
+    group: '标签',
   },
 
   // series

@@ -110,7 +110,7 @@ export const visualOptions = {
       scaleType: 'sequential',
       interpolator: 'interpolateBlues',
     },
-    group: 'colors',
+    group: '颜色',
     requiredDimensions: ['x', 'y'],
   },
 
@@ -118,23 +118,23 @@ export const visualOptions = {
     type: 'boolean',
     label: 'Show count labels',
     default: false,
-    group: 'labels',
+    group: '标签',
     requiredDimensions: ['x', 'y'],
   },
 
   showLabelsOutline: {
     type: 'boolean',
-    label: 'Show outline',
+    label: '显示轮廓',
     default: false,
-    group: 'labels',
+    group: '标签',
     requiredDimensions: ['x', 'y'],
   },
 
   autoHideLabels: {
     type: 'boolean',
-    label: 'Auto hide labels',
+    label: '自动隐藏标签',
     default: false,
-    group: 'labels',
+    group: '标签',
     requiredDimensions: ['x', 'y'],
   },
 }

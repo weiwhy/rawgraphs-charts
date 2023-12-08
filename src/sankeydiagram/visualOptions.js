@@ -91,13 +91,13 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'interpolateSpectral',
     },
-    group: 'colors',
+    group: '颜色',
   },
 
   showValues: {
     type: 'boolean',
     label: 'Show nodes values',
     default: false,
-    group: 'Labels',
+    group: '标签',
   },
 }

@@ -119,6 +119,6 @@ export const visualOptions = {
       scaleType: 'ordinal',
       interpolator: 'schemeCategory10',
     },
-    group: 'colors',
+    group: '颜色',
   },
 }
